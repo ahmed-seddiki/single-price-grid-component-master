@@ -21,7 +21,7 @@ body {
   background-color: var(--bs-neutral-light-gray);
   font-size: 16px;
   line-height: 1.5em;
-  font-family: "Karla";
+  font-family: 'Karla', sans-serif;
   font-weight: 400;
 }
 .container {
