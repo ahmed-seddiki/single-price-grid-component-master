@@ -14,7 +14,7 @@ p {
   margin-bottom: 1rem;
 }
 p,
-h3 {
+h2 {
   color: lightcyan;
 }
 body {
@@ -23,20 +23,19 @@ body {
   line-height: 1.5em;
   font-family: 'Karla', sans-serif;
   font-weight: 400;
-}
-.container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
 }
-.box {
+
+main {
   max-width: 38em;
 }
 
 @media (min-width: 768px) {
-  .box {
+  main {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
@@ -95,8 +94,8 @@ body {
   font-weight: 700;
   border-radius: 0.4em;
 }
-.two h3,
-.there h3 {
+.two h2,
+.there h2 {
   font-size: 1.2em;
 }
 .there {
@@ -117,18 +116,4 @@ body {
 .there ul li {
   list-style: none;
   color: lightcyan;
-}
-
-footer .attribution{
-  text-align: center;
-  color: #fff;
-  margin-top: 1em;
-  background-color: var(--bs-neutral-grayish-blue);
-  padding: 0.5em 1em;
-  font-weight: 700;
-  border-radius: 0.5em;
-}
-footer .attribution a{
-  text-decoration: none;
-  color: #333; 
 }
